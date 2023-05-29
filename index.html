@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AOURA CARE FOUNDATION</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+    <header class="headCont">
+        <div id = 'logo_div' data-aos="flip-down"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
+            <img src="./IMG/aoura-care-high-resolution-color-logo.png" alt="aoura Logo">
+        </div>
+        <ul id="menu" data-aos="fade-right"
+        data-aos-offset="300" >
+            <li data-aos="fade-left" data-aos-delay="100"><a href="">About Us</a></li>
+            <li data-aos="fade-left" data-aos-delay="400"><a href="">Contact</a></li>
+            <li data-aos="fade-left" data-aos-delay="700"><a href="">Achievement</a></li>
+            <li data-aos="fade-left" data-aos-delay="1000" data-aos-offset="-300"><a href="">Our Work</a></li>
+        </ul>
+        <button class = 'donateBtn' onclick="donateBtn()" data-aos="zoom-in">Donate</button>
+        <button class = 'menuBtn' onclick="menuBtnClck()"><i class="fas fa-bars"></i></button>
+
+    </header>
+
+    <div id ='donatCont'>
+        <button  onclick = "closedonateCon()" class= 'closeDonate'><i class="fad fa-times"></i></button>
+        <form class="dont">
+            <div class="donateimg" data-aos="fade-down" >
+                <h1>CHANGE LIVES. SAVE LIVES.</h1>
+            </div>
+            <input data-aos="fade-right" type="text" placeholder="Email" required>
+            <input data-aos="fade-left" data-aos-delay="200" type="tel" placeholder="Phone No" required>
+            <button data-aos="fade-up" data-aos-delay="400" data-aos-offset="-300" type="submit" id="rzp-button1" class = 'paybut'>Payment <i class="far fa-donate"></i></button>
+        </form>
+    </div>
+
+    <main>
+        <div class = home>
+            <div class= 'homeImgSlid'>
+                <div class= 'homeImgCon'>
+                    <img src="./IMG/1st.jpg" alt="Child Getting Educated">
+                    <div class ='homeImgDecpt'>
+                        <h1 data-aos="zoom-out">AVERTING THE LEARNING CRISIS: EMPOWERING TEACHERS</h1>
+                        <p data-aos="flip-left">The World Bank, in a 2017 report, warned of a learning crisis across the world and according to UNICEF, In Nigeria about 10.5million of the country's chidren aged 5-14 are not in school.
+                            Read more here</p>
+                    </div>
+                </div>
+                <div class= 'homeImgCon'>
+                    <img src="./IMG/homeslide3.jpg" alt="Child Getting Educated">
+                    <div class ='homeImgDecpt'>
+                        <h1 data-aos="zoom-out">Are mid day meals the way to bring back children to school?</h1>
+                        <p data-aos="zoom-out">Many a times we notice poor children begging or Hawking on the streets, sitting on pavements or just roaming around. A sense of pity strikes in but hardly do we ever ask ourselves some rational questions about their health, needs and education.</p>
+                    </div>
+                </div>
+                <div class= 'homeImgCon'>
+                    <img src="./IMG/homeslide.4.jpg" alt="Child Getting Educated">
+                    <div class ='homeImgDecpt'>
+                        <h1>Can you thrive on an empty stomach?</h1>
+                        <p>How do you define a powerful nation? Is it their natural reserves, or its financial resources, or its People?</p>
+                    </div>
+                </div>
+                <div class= 'homeImgCon'>
+                    <img src="./IMG/homeslide.jpg" alt="Child Getting Educated">
+                    <div class ='homeImgDecpt'>
+                        <h1>A pledge to protect- with our heart and might</h1>
+                        <p>Aoura Care believes in a world in which all children survive, have the chance to learn, and are protected from abuse, neglect and exploitation</p>
+                        </div>
+                </div>
+                <div class= 'homeImgCon'>
+                    <img src="./IMG/homeslide12.jpg" alt="Child Getting Educated">
+                    <div class ='homeImgDecpt'>
+                        <h1>A pledge to nourish- with food, love and care!</h1>
+                        <p>As a nation, we have long battled with the problem of hunger, where a large part of our population was forced to sleep hungry every night and it has only gotten worse over the years.</p>
+                    </div>
+                </div>
+                <div class= 'homeImgCon'>
+                    <img src="./IMG/homesleide6.jpg" alt="Child Getting Educated">
+                    <div class ='homeImgDecpt'>
+                        <h1>The work of volunteers impacts on all our live.</h1>
+                        <p>In the 2022 Global Hunger Index, Nigeria ranks 103rd out of the 121 countries and faring worse to most other developing countries in the world sets a backdrop of the massive crsis.</p>
+                    </div>
+                </div>
+                <div class= 'homeImgCon'>
+                    <img src="./IMG/homeslide7.jpg" alt="Child Getting Educated">
+                    <div class ='homeImgDecpt'>
+                        <h1>“Thousands of candles can be lighted from a single candle, and the life.” </h1>
+                        <p>This list takes into consideration the undernourishment, child mortality, child wasting and child stunting. It also appears that only 18 percent of children aged 6-23 months are fed the minimum acceptable diet in Nigeria</p>
+                    </div>
+                </div>
+                <div class= 'homeImgCon'>
+                    <img src="./IMG/1st.jpg" alt="Child Getting Educated">
+                    <div class ='homeImgDecpt'>
+                        <h1>AVERTING THE LEARNING CRISIS: EMPOWERING TEACHERS</h1>
+                        <p>The World Bank, in a 2017 report, warned of a learning crisis across the world and according to UNICEF, In Nigeria about 10.5million of the country's chidren aged 5-14 are not in school.
+                        </p>
+                    </div>
+                </div>
+            </div>
+           <ul class = 'Home_slidDot'>
+               <li><button onclick= "slidview(0)" class = 'homedot'></button></li>
+               <li><button onclick= "slidview(1)" class = 'homedot'></button></li>
+               <li><button onclick= "slidview(2)" class = 'homedot'></button></li>
+               <li><button onclick= "slidview(3)" class = 'homedot'></button></li>
+               <li><button onclick= "slidview(4)" class = 'homedot'></button></li>
+               <li><button onclick= "slidview(5)" class = 'homedot'></button></li>
+               <li><button onclick= "slidview(6)" class = 'homedot'></button></li>
+
+           </ul>
+        </div>
+
+        <section class  = 'focusSec'>
+            <h1 data-aos="fade-down-right" class = 'title1'>Aoura Care is working for tirelessly to bring</h1>
+            <h2 data-aos="zoom-in" class = 'title2'>holistic & sustainable changes</h2>
+            <h3 data-aos="fade-down-left" class = 'title3'></h3class>Our Focus Areas</h3>
+            <div class = 'focusCardCont'>
+                <div class="card" data-aos="fade-down">
+                    <div class="focImgCont">
+                        <img src="./IMG/medic.jpeg" alt="">
+                        <div class ='focImgtext'>
+                            <h2>Medical</h2>
+                            <p>5 <br> Reached</p>
+                        </div>
+                    </div>
+                    <div class="cardDecpt">
+                        <p>Assisting in medical Emergency Reproductive Meternal Neonatel Child and adolscent halthcare</p>
+                    </div>
+                </div>
+
+                <div class="card" data-aos="fade-up">
+                    <div class="focImgCont">
+                        <img src="./IMG/edu.jpeg" alt="">
+                        <div class ='focImgtext'>
+                            <h2>Education</h2>
+                            <p>10<br> Reached</p>
+                        </div>
+                    </div>
+                    <div class="cardDecpt">
+                        <p>We see education as an imperative tool for girls to realize their maximum potential by gaining crucial skills and dispositions that set them on the path of social and economic empowerment.</p>
+                    </div>
+                </div>
+
+                <div class="card" data-aos="fade-down">
+                    <div class="focImgCont">
+                        <img src="./IMG/homeslide7.jpg" alt="">
+                        <div class ='focImgtext'>
+                            <h2>Feeding</h2>
+                            <p>over 70 <br> Reached</p>
+                        </div>
+                    </div>
+                    <div class="cardDecpt">
+                        <p> The key approaches adopted is providing infrastructure and feeding to benefit early childhood development.</p>
+                    </div>
+                </div>
+
+                <div class="card" data-aos="fade-up">
+                    <div class="focImgCont">
+                        <img src="./IMG/dmn.jpeg" alt="">
+                        <div class ='focImgtext'>
+                            <h2>Diseaster Management</h2>
+                            <p>5 <br> Reached</p>
+                        </div>
+                    </div>
+                    <div class="cardDecpt">
+                        <p>Disaster Management initiative works to provide rapid and effective relief measures to the regions impacted by natural calamities</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class = 'missionSec'>
+            <div class="misImgCon">
+                <div class ='reach'>
+                    <h1 data-aos="zoom-out">OUR REACH</h1>
+                </div>
+                <div class ='reachtot'>
+                    <h1 data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500">90+</h1>
+                    <p data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500">
+                    direct reach</p>
+                    <div class ='reachCnt'>
+                        <div data-aos="fade-up"
+                        data-aos-easing="linear"
+                        data-aos-duration="900">
+                            <h1>2</h1>
+                            <p>States</p>
+                        </div>
+                        <div data-aos="fade-up"
+                        data-aos-delay="300"
+                        data-aos-easing="linear"
+                        data-aos-duration="900">
+                            <h1>3</h1>
+                            <p>Districts</p>
+                        </div>
+                        <div data-aos="fade-up"
+                        data-aos-delay="400"
+                        data-aos-easing="linear"
+                        data-aos-duration="900">
+                            <h1>4</h1>
+                            <p>Programmes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class = 'missdiv2'>
+                <h2 class = 'missTitle1' data-aos="fade-right">Be a real-life hero!</h2>
+                <h1 class = 'missTitle2'data-aos="fade-left">Join us in our mission of impacting a Hundred Thousand people by 2030</h1>
+                <h3 class = 'missTitle3' data-aos="fade-up-right">Without Your Help It's Won't Possible</h1>
+
+                <div class = 'missdivTwoNum'>
+                    <div data-aos="fade-left"
+                         data-aos-duration="500">
+                        <p class ='year'>2022-2024</p>
+                        <h1 class = 'num'>10 <span><i class="fas fa-chevron-right"></i></span></h1>
+                        <p class='mil'>thousand</p>
+                    </div>
+                    <div data-aos="fade-left"
+                        data-aos-delay='200'
+                         data-aos-duration="500">
+                        <p class ='year'>2024-2026</p>
+                        <h1 class = 'num'>40 <span><i class="fas fa-chevron-right"></i></span></h1>
+                        <p class='mil'>thousand</p>
+                    </div>
+                    <div data-aos="fade-left"
+                        data-aos-delay='400'
+                        data-aos-duration="500">
+                        <p class ='year'>2026-2030</p>
+                        <h1 class = 'num'>50</h1>
+                        <p class='mil'>thousand</p>
+                    </div>
+                </div>
+
+                <div class="missionslidCon">
+                    <div class="missSld">
+                        <div class="misSlddiv">
+                            <img data-aos="flip-right" src="./IMG/homeslide6.jpeg" alt="">
+                            <div class="misSldDescpt">
+                                <h1 data-aos="fade-up">Give Girls a Chance to Learn Maths, Science and Tech.</h1>
+                                <p data-aos="fade-up" data-aos-delay="300"> once a year, 10 girls will be chosen to undergo (free) training and tutoring on Mathematics and Programming.</p>
+                            </div>
+                        </div>
+                        <div class="misSlddiv">
+                            <img data-aos="flip-right" src="./IMG/homeslide3.jpeg" alt="">
+                            <div class="misSldDescpt">
+                                <h1 data-aos="fade-up">Save children from severe malnutrition</h1>
+                                <p data-aos="fade-up" data-aos-delay="300">70+ children reached and fed in Apo District Abuja and 2 orphanages in Anambra State.</p>
+                            </div>
+                        </div>
+                         <div class="misSlddiv">
+                            <img data-aos="flip-right" src="./IMG/homeslide11.jpg" alt="">
+                            <div class="misSldDescpt">
+                                <h1 data-aos="fade-up">Save Children from diseases of poverty</h1>
+                                <p data-aos="fade-up" data-aos-delay="300">5 children provided medical aid around Lugbe district, Abuja.</p>
+                            </div>
+                        </div> 
+                        <div class="misSlddiv">
+                            <img data-aos="flip-right" src="./IMG/homeslide6.jpeg" alt="">
+                            <div class="misSldDescpt">
+                                <h1 data-aos="fade-up">Give Girls a Chance to Learn Maths, Science and Tech</h1>
+                                <p data-aos="fade-up" data-aos-delay="300"> once a year, 10 girls will be chosen to undergo (free) training and tutoring on Mathematics and Programming.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class = 'Poster'>
+            <h1 data-aos="zoom-in-right"
+            data-aos-delay='200'>“Every good act is charity. A man's true wealth hereafter is the good that he does in this world to his fellows.”</h1>
+            <p><span data-aos="fade-up-right"
+                data-aos-delay='200'>YOU</span> 
+                <span data-aos="fade-down"
+                data-aos-delay='500'>CAN</span> 
+                <span data-aos="fade-up-left"
+                data-aos-delay='800'>HELP <i class="fas fa-hands-heart"></i></span></p>
+        </section>
+        <section class = 'helpSec'>
+            <h1 data-aos="zoom-in-right">Here's who can Help</h1>
+            <div class='help_con'>
+                <div data-aos="fade-up">
+                    <p><i class="fas fa-male"></i></p>
+                    <span>Individual</span>
+                </div>
+                <div data-aos="fade-up"
+                     data-aos-delay='200'>
+                    <p><i class="fas fa-users"></i></p>
+                    <span>Committee</span>
+                </div>
+                <div data-aos="fade-up"
+                    data-aos-delay='400'>
+                    <p><i class="fas fa-university"></i></p>
+                    <span>Institute</span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id = footer>
+        <div class="footCont">
+            <div class="footbox" data-aos="fade-left" data-aos-delay="100">
+                <img src="./IMG/aoura-care-high-resolution-color-logo.png" class = 'footLog' alt="">
+                <h2 data-aos="zoom-in" data-aos-delay="100">Aoura Care Foundation</h2>
+                <button class = 'donatefootBtn' onclick="donateBtn()" data-aos="fade-down">Donate <i class="far fa-heartbeat"></i></button>
+            </div>
+            <div class="footbox" data-aos="fade-left" data-aos-delay="300">
+                <h1>Resources</h1>
+                <ul>
+                    <li><a href="">Moments to Milestones</a></li>
+                    <li><a href="">Innovation Briefs</a></li>
+                    <li><a href="">Impact Report</a></li>
+                </ul>
+            </div>
+            <div class="footbox" data-aos="fade-left" data-aos-delay="600">
+                <h1>Accountability</h1>
+                <ul>
+                    <li><a href="">Financial Statement</a></li>
+                    <li><a href="">Annual Report</a></li>
+                    <li><a href="">FCRA Statement</a></li>
+                    <li><a href="">Legal Compliance</a></li>
+                    <li><a href="">Sources of Fund</a></li>
+                </ul>
+            </div>
+            <div class="footbox" data-aos="fade-left" data-aos-delay="900">
+                <h1>Media</h1>
+                <ul>
+                    <li><a href="">News</a></li>
+                    <li><a href="">Events</a></li>
+                    <li><a href=""> Photo Gallery</a></li>
+                    <li><a href="">Videos</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copy" data-aos="fade-right" data-aos-offset="-300">
+            <h4 data-aos="zoom-in" data-aos-delay="200" data-aos-offset="-300">Made By aouracodes with <i class="fas fa-hands-heart"></i></h4>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000, // values from 0 to 3000, with step 50ms
+        });
+    </script>
+    <script src = 'index.js'></script>
+
+    <!-- RAZOR PAY -->
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script>
+        var options = {
+            "key": "rzp_test_1SRhymVoEd7iGq", // Enter the Key ID generated from the Dashboard
+            "amount": "50000", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
+            "currency": "INR",
+            "name": "Nitin Gupta",
+            "description": "Test Transaction",
+            "image": "https://example.com/your_logo",
+            "order_id": "order_I84Vs7CV55kbUx", //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
+            "handler": function (response) {
+                alert(response.razorpay_payment_id);
+                alert(response.razorpay_order_id);
+                alert(response.razorpay_signature)
+            },
+            "prefill": {
+                "name": "Princess Oraeki",
+                "email": "aouracodes@example.com",
+                "contact": "9999999999"
+            },
+            "notes": {
+                "address": "Razorpay Corporate Office"
+            },
+            "theme": {
+                "color": "#3399cc"
+            }
+        };
+        var rzp1 = new Razorpay(options);
+        rzp1.on('payment.failed', function (response) {
+            alert(response.error.code);
+            alert(response.error.description);
+            alert(response.error.source);
+            alert(response.error.step);
+            alert(response.error.reason);
+            alert(response.error.metadata.order_id);
+            alert(response.error.metadata.payment_id);
+        });
+        document.getElementById('rzp-button1').onclick = function (e) {
+            rzp1.open();
+            e.preventDefault();
+        }
+    </script>
+</body>
+    
+</html>
